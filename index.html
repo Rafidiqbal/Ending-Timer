@@ -28,6 +28,10 @@
   <!-- Option to set/change exam date -->
   <input type="datetime-local" id="examInput">
   <button onclick="setExamDate()">Set Exam Date</button>
+  <br>
+<textarea id="examNote" placeholder="Write your note here..." rows="4" cols="40"></textarea><br>
+<button onclick="saveNote()">Save Note</button>
+<p id="savedNote"></p>
 
   <script>
     let examDate;
